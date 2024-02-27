@@ -54,16 +54,24 @@ Try with Android, Ios, Web and Windows App only
 flutter run
 ```
 
-Android(Material) Design Screens
+**Android(Material) Design Screens**
 
-![alt text](image-6.png)
+Img1
 
-![alt text](image-7.png)
+<img src="./assests/img/image-6.png" width="400" height="400"/>
 
-IOs(Cupertino) Design Screens
+Img2
 
-![alt text](image-4.png)
+<img src="./assests/img/image-7.png" width="400" height="400"/>
 
-![alt text](image-5.png)
+**IOs(Cupertino) Design Screens**
+
+Img1
+
+<img src="./assests/img/image-4.png" width="400" height="400"/>
+
+Img2
+
+<img src="./assests/img/image-5.png" width="400" height="400"/>
 
 [online documentation](https://docs.flutter.dev/)
