@@ -1,31 +1,14 @@
-import 'package:currency_converter/pages/currency_converter_android_page.dart';
-import 'package:currency_converter/pages/currency_converter_ios_page.dart';
+import 'package:currency_converter/Features/cupertino_and_material_design.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+/**
+ * ! Important - To Try Android or IOs Design for this app
+ * ? You can try commeting one line and uncomming another one in main function 
+ */
+///
 void main() {
   runApp(const MyAndroidApp());
-  // runApp(const MyCupertinoApp());
-}
-
-class MyAndroidApp extends StatelessWidget {
-  const MyAndroidApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: CurrencyConverterAndroidPage(),
-    );
-  }
-}
-
-class MyCupertinoApp extends StatelessWidget{
-  const MyCupertinoApp({super.key});
-
-  @override
-  Widget build(BuildContext context){
-    return const CupertinoApp(
-      home:CurrencyConverterIOsPage(),
-    );
-  }
+  // Un-Comment the below Line and comment the above line to enable Cupertio (IOs) UI.
+  runApp(const MyCupertinoApp());
 }
