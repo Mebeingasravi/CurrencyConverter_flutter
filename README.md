@@ -52,15 +52,15 @@ Try with Android, Ios, Web and Windows App only
 
 ```bash
 flutter run
+```
 
-
-Android Design Screens
+Android(Material) Design Screens
 
 ![alt text](image.png)
 
 ![alt text](image-1.png)
 
-IOs Design Screens
+IOs(Cupertino) Design Screens
 
 ![alt text](image-2.png)
 
